@@ -21,13 +21,11 @@
 		<script type="module">
 
 			import * as THREE from './js/three.module.js';
-			import { OrbitControls } from './js/OrbitControls.js';
 			import { APP } from './js/app.js';
 			import { VRButton } from './js/VRButton.js';
 
 			window.THREE = THREE; // Used by APP Scripts.
 			window.VRButton = VRButton; // Used by APP Scripts.
-			var controls = new OrbitControls( camera, renderer.domElement );
 
 			var loader = new THREE.FileLoader();
 			loader.load( 'app.json', function ( text ) {

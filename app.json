@@ -17,11 +17,11 @@
 			"generator": "Object3D.toJSON"
 		},
 		"object": {
-			"uuid": "C8CC588F-E705-40C1-A468-594FD508B5F9",
+			"uuid": "CFF81CF9-709E-42FB-A21A-D96AD76B4AC3",
 			"type": "PerspectiveCamera",
 			"name": "Camera",
 			"layers": 1,
-			"matrix": [1,0,0,0,0,0.894427,-0.447214,0,0,0.447214,0.894427,0,0,33.471732,45.341687,1],
+			"matrix": [1,0,0,0,0,0.894427,-0.447214,0,0,0.447214,0.894427,0,9.972002,23.65943,46.849427,1],
 			"fov": 50,
 			"zoom": 1,
 			"near": 0.01,
@@ -40,7 +40,7 @@
 		},
 		"geometries": [
 			{
-				"uuid": "9CF31BC1-091F-4F07-AE8B-C998028516FC",
+				"uuid": "6754EB5E-E9A9-4B48-9BDF-DA232FAE2ADE",
 				"type": "BufferGeometry",
 				"data": {
 					"attributes": {
@@ -86,7 +86,7 @@
 				}
 			},
 			{
-				"uuid": "96F41356-D5AD-4CDB-AC85-F342D10350FB",
+				"uuid": "6D9C26F1-5D96-451A-925B-9DC1BEA853F8",
 				"type": "BufferGeometry",
 				"data": {
 					"attributes": {
@@ -132,7 +132,7 @@
 				}
 			},
 			{
-				"uuid": "72118D11-170C-4E0C-9015-1B375059E4BD",
+				"uuid": "0C2F335A-FF96-49C1-835C-42EE248657AB",
 				"type": "BufferGeometry",
 				"data": {
 					"attributes": {
@@ -178,7 +178,7 @@
 				}
 			},
 			{
-				"uuid": "FFB762C1-582D-4BD7-BD47-4417369ACEA4",
+				"uuid": "9F7E5BBD-85DF-4624-8DC0-26173D73E335",
 				"type": "BufferGeometry",
 				"data": {
 					"attributes": {
@@ -224,7 +224,7 @@
 				}
 			},
 			{
-				"uuid": "E67760C9-158B-479A-BBF6-FABEDAB2579D",
+				"uuid": "A36445BF-0123-43EE-ACC1-460094870190",
 				"type": "BufferGeometry",
 				"data": {
 					"attributes": {
@@ -270,7 +270,7 @@
 				}
 			},
 			{
-				"uuid": "38D0803B-410F-4DAB-989A-244D5D64A742",
+				"uuid": "9E7614BE-D74B-4164-ACA7-7B15C3E929D6",
 				"type": "BufferGeometry",
 				"data": {
 					"attributes": {
@@ -316,41 +316,41 @@
 				}
 			},
 			{
-				"uuid": "2FC3ACB4-0940-4FB9-823D-B79BAF12E1E6",
+				"uuid": "57FC125D-9389-4C03-9330-6783A5F90AB9",
 				"type": "BufferGeometry",
 				"data": {
 					"attributes": {
 						"position": {
 							"itemSize": 3,
 							"type": "Float32Array",
-							"array": [-1,1,-1,-1,-1,-1,-1,-1,1,-1,1,1,1,1,-1,1,-1,-1,-1,-1,-1,-1,1,-1,1,1,1,1,-1,1,1,-1,-1,1,1,-1,-1,1,1,-1,-1,1,1,-1,1,1,1,1,-1,-1,1,-1,-1,-1,1,-1,-1,1,-1,1],
+							"array": [-1,0,1,-1,0,-1,1,0,-1,1,0,1],
 							"normalized": false
 						},
 						"normal": {
 							"itemSize": 3,
 							"type": "Float32Array",
-							"array": [-1,0,0,-1,0,0,-1,0,0,-1,0,0,0,0,-1,0,0,-1,0,0,-1,0,0,-1,1,0,0,1,0,0,1,0,0,1,0,0,0,0,1,0,0,1,0,0,1,0,0,1,0,-1,0,0,-1,0,0,-1,0,0,-1,0],
+							"array": [0,-1,0,0,-1,0,0,-1,0,0,-1,0],
 							"normalized": false
 						},
 						"uv": {
 							"itemSize": 2,
 							"type": "Float32Array",
-							"array": [0.625,0.75,0.375,0.75,0.375,1,0.625,1,0.625,0.5,0.375,0.5,0.375,0.75,0.625,0.75,0.625,0.25,0.375,0.25,0.375,0.5,0.625,0.5,0.625,0,0.375,0,0.375,0.25,0.625,0.25,0.125,0.25,0.125,0.5,0.375,0.5,0.375,0.25],
+							"array": [0.125,0.25,0.125,0.5,0.375,0.5,0.375,0.25],
 							"normalized": false
 						}
 					},
 					"index": {
 						"type": "Uint16Array",
-						"array": [0,1,2,0,2,3,4,5,6,4,6,7,8,9,10,8,10,11,12,13,14,12,14,15,16,17,18,16,18,19]
+						"array": [0,1,2,0,2,3]
 					},
 					"boundingSphere": {
 						"center": [0,0,0],
-						"radius": 1.732051
+						"radius": 1.414214
 					}
 				}
 			},
 			{
-				"uuid": "67C909AA-57B3-4DD9-A3F2-19C2362B9942",
+				"uuid": "CAE5E07B-F048-4BF8-8EE0-DBA2BE684331",
 				"type": "BufferGeometry",
 				"data": {
 					"attributes": {
@@ -416,7 +416,7 @@
 				}
 			},
 			{
-				"uuid": "43F8B674-6C5F-44DE-A749-D84A2C279649",
+				"uuid": "5D4AFBB2-B26B-4AED-97D6-C304A40E9F40",
 				"type": "BufferGeometry",
 				"data": {
 					"attributes": {
@@ -450,7 +450,7 @@
 				}
 			},
 			{
-				"uuid": "ECC4291B-F799-442B-A59A-42A8DCA4E07E",
+				"uuid": "FCE39F6F-13BD-44FB-A692-6D8DC06C3CDB",
 				"type": "BufferGeometry",
 				"data": {
 					"attributes": {
@@ -484,7 +484,7 @@
 				}
 			},
 			{
-				"uuid": "A754C9C6-B272-49AC-8DC0-75791697F85F",
+				"uuid": "AAB2F3A3-A361-4DA9-82FA-ADDC69EEBE27",
 				"type": "BufferGeometry",
 				"data": {
 					"attributes": {
@@ -550,7 +550,7 @@
 				}
 			},
 			{
-				"uuid": "2107BEDE-9EB7-4BF3-96A7-BC981AE5D853",
+				"uuid": "4862132A-8FAE-4EB7-8911-80D683237C06",
 				"type": "BufferGeometry",
 				"data": {
 					"attributes": {
@@ -584,7 +584,7 @@
 				}
 			},
 			{
-				"uuid": "D66A2FC7-9FE0-4B03-8ABC-04C9112941F6",
+				"uuid": "3C3FC257-D59E-4339-A0D6-16C3D56F6A26",
 				"type": "BufferGeometry",
 				"data": {
 					"attributes": {
@@ -619,7 +619,7 @@
 			}],
 		"materials": [
 			{
-				"uuid": "281E72CA-F5B3-485A-89EB-8AAEFB1A1F51",
+				"uuid": "3AF374E9-7859-46F2-806E-8B63BE39FCAA",
 				"type": "MeshStandardMaterial",
 				"name": "Hair",
 				"color": 263172,
@@ -640,7 +640,7 @@
 				"stencilZPass": 7680
 			},
 			{
-				"uuid": "AD584A39-2C10-4E69-8DB7-78F7A35C5A86",
+				"uuid": "A035FD27-B5DD-4B5E-97ED-C8C6D53F9F16",
 				"type": "MeshStandardMaterial",
 				"name": "Face",
 				"color": 16756557,
@@ -661,7 +661,7 @@
 				"stencilZPass": 7680
 			},
 			{
-				"uuid": "9D6531C7-1D53-4976-9992-9C00295D2AFD",
+				"uuid": "D80D7B2E-2FC5-4BE2-9F5E-FF886575A63E",
 				"type": "MeshStandardMaterial",
 				"name": "Light",
 				"color": 13421772,
@@ -682,7 +682,7 @@
 				"stencilZPass": 7680
 			},
 			{
-				"uuid": "AA627A8E-9B93-40D8-B313-C7C321092C1D",
+				"uuid": "3D2C4D85-7310-4380-A3F8-D2DB3DE42675",
 				"type": "MeshStandardMaterial",
 				"name": "Shirt",
 				"color": 8388621,
@@ -703,7 +703,7 @@
 				"stencilZPass": 7680
 			},
 			{
-				"uuid": "E79B5374-9147-4CE8-9FE0-86683B33E745",
+				"uuid": "8D123B8B-4884-49F7-9DB5-7CB2B7A54FE0",
 				"type": "MeshStandardMaterial",
 				"name": "Shalvar",
 				"color": 33791,
@@ -724,7 +724,7 @@
 				"stencilZPass": 7680
 			},
 			{
-				"uuid": "E84C304B-8494-4B8E-BA22-86EFE1A32D1B",
+				"uuid": "71636001-215D-4642-AC60-E8FBF780C229",
 				"type": "MeshStandardMaterial",
 				"name": "Lis",
 				"color": 5115663,
@@ -745,13 +745,13 @@
 				"stencilZPass": 7680
 			},
 			{
-				"uuid": "8917C3A5-78BF-4703-8C93-C190D27C654E",
+				"uuid": "DDF17725-6E97-45D9-8610-BA98B2283AED",
 				"type": "MeshStandardMaterial",
 				"name": "ground",
-				"color": 13398290,
+				"color": 16744448,
 				"roughness": 0.5,
 				"metalness": 0,
-				"emissive": 0,
+				"emissive": 5975552,
 				"side": 2,
 				"depthFunc": 3,
 				"depthTest": true,
@@ -766,7 +766,7 @@
 				"stencilZPass": 7680
 			},
 			{
-				"uuid": "4F26D235-8123-4D0E-8C7D-82B1AFA3F563",
+				"uuid": "936530F5-655C-43C0-9FE4-0E8484F85293",
 				"type": "MeshStandardMaterial",
 				"name": "Black",
 				"color": 0,
@@ -787,7 +787,7 @@
 				"stencilZPass": 7680
 			},
 			{
-				"uuid": "A6EFD6AA-518B-441C-B736-5926F6A61D75",
+				"uuid": "D85A69A0-1B0C-4A49-9FED-041B2DBB00BF",
 				"type": "MeshStandardMaterial",
 				"name": "White",
 				"color": 13421772,
@@ -808,7 +808,7 @@
 				"stencilZPass": 7680
 			},
 			{
-				"uuid": "ABA448EA-2819-43F7-B3FA-5E6C1A6A45AB",
+				"uuid": "8333EE34-A1A4-46CD-B412-E9D633E5B5B9",
 				"type": "MeshStandardMaterial",
 				"name": "Brown",
 				"color": 1573120,
@@ -1409,7 +1409,7 @@
 						"values": [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
 						"type": "vector"
 					}],
-				"uuid": "45DAA54A-8E64-4634-96E1-C70D0EFB6C30",
+				"uuid": "50878063-A5F1-40B5-BE90-8AB9237560B6",
 				"blendMode": 2500
 			},
 			{
@@ -1992,7 +1992,7 @@
 						"values": [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
 						"type": "vector"
 					}],
-				"uuid": "ECE11EF5-0C95-4D0C-934E-591E4FFBFF88",
+				"uuid": "C20CF39B-93F4-4214-BFE1-191829F9C8CB",
 				"blendMode": 2500
 			},
 			{
@@ -2575,7 +2575,7 @@
 						"values": [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
 						"type": "vector"
 					}],
-				"uuid": "15836F1E-FA75-403D-9748-1BA9C3F06372",
+				"uuid": "2271A451-398D-493E-84B7-C7563879B277",
 				"blendMode": 2500
 			},
 			{
@@ -3158,7 +3158,7 @@
 						"values": [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
 						"type": "vector"
 					}],
-				"uuid": "4FF4BFDC-095A-46CC-B6F4-2919D9C7D134",
+				"uuid": "5284886F-98A0-4F12-A0F5-50DB176B3B87",
 				"blendMode": 2500
 			},
 			{
@@ -3741,7 +3741,7 @@
 						"values": [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
 						"type": "vector"
 					}],
-				"uuid": "BF77F1BA-D523-448B-BEFD-5BF065A4F9D8",
+				"uuid": "6C553BDA-FDCF-4BDC-B416-6CCAE0C46EEC",
 				"blendMode": 2500
 			},
 			{
@@ -4324,7 +4324,7 @@
 						"values": [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
 						"type": "vector"
 					}],
-				"uuid": "6A3CC989-A198-4382-9532-78BF628C086B",
+				"uuid": "79373B9E-3AE7-4E43-8B98-A2694016D5BD",
 				"blendMode": 2500
 			},
 			{
@@ -4907,7 +4907,7 @@
 						"values": [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
 						"type": "vector"
 					}],
-				"uuid": "18C71583-9532-4CC9-8C73-99C8CD7ECC44",
+				"uuid": "859349FB-3AB3-4C1C-819B-8166764929EC",
 				"blendMode": 2500
 			},
 			{
@@ -5490,7 +5490,7 @@
 						"values": [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
 						"type": "vector"
 					}],
-				"uuid": "375BA004-2C0D-4A26-9656-ADF5C5130F27",
+				"uuid": "9083E546-BC76-484C-A434-92BEFAF4FC8E",
 				"blendMode": 2500
 			},
 			{
@@ -6073,7 +6073,7 @@
 						"values": [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
 						"type": "vector"
 					}],
-				"uuid": "58672B85-26D3-457C-B113-8E621ED6E259",
+				"uuid": "1F1158DA-678E-4595-9D37-CC282318A2C6",
 				"blendMode": 2500
 			},
 			{
@@ -6656,7 +6656,7 @@
 						"values": [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
 						"type": "vector"
 					}],
-				"uuid": "430FBAAE-8EF3-4665-9730-EF560F4F11B9",
+				"uuid": "9142BE4F-436B-4398-B280-E50FF3027A18",
 				"blendMode": 2500
 			},
 			{
@@ -7239,7 +7239,7 @@
 						"values": [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
 						"type": "vector"
 					}],
-				"uuid": "B404B770-DB9D-4C4C-942C-0E867FB9F849",
+				"uuid": "2B94AEDF-F12F-4D4A-8B5C-4AC500074180",
 				"blendMode": 2500
 			}],
 		"object": {
@@ -7250,14 +7250,14 @@
 			"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],
 			"children": [
 				{
-					"uuid": "E1F1F55E-5E2C-43EA-A134-3E80AF3A2465",
+					"uuid": "46367ABE-48A2-484B-8379-7D71E4F1574B",
 					"type": "Group",
 					"name": "RajabGLTF.glb",
 					"layers": 1,
 					"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],
 					"children": [
 						{
-							"uuid": "A3CD23D6-89AC-416D-A171-1EBB06CCE782",
+							"uuid": "225E12D2-C06D-4FA0-B027-AAFDC902617F",
 							"type": "Object3D",
 							"name": "Light",
 							"userData": {
@@ -7267,7 +7267,7 @@
 							"matrix": [-0.290865,-0.055189,-0.955171,0,0.566393,0.794672,-0.218391,0,0.771101,-0.604525,-0.199883,0,6.213731,8.71986,8.41309,1]
 						},
 						{
-							"uuid": "0EE60C17-F58F-448F-BD9A-FC8D52E9EF01",
+							"uuid": "121915DB-5399-4FE7-A143-3C1645B7AEF3",
 							"type": "Object3D",
 							"name": "Camera",
 							"userData": {
@@ -7277,7 +7277,7 @@
 							"matrix": [0.990268,0,-0.139173,0,0.138411,0.104529,0.984843,0,0.014548,-0.994522,0.103511,0,5.887756,13.264073,49.741211,1]
 						},
 						{
-							"uuid": "6A3DB332-C259-4368-AB65-5BF0B415BAA6",
+							"uuid": "D129C50E-4AB0-4F75-BC4B-B3CE8E3E0D53",
 							"type": "Object3D",
 							"name": "Empty",
 							"userData": {
@@ -7287,7 +7287,7 @@
 							"matrix": [1,0,0,0,0,0,1,0,0,-1,0,0,-18.11562,-5.902076,1.949723,1]
 						},
 						{
-							"uuid": "A44EA765-7277-46D6-9099-89201BC2A4D4",
+							"uuid": "FDF0F43E-B828-4D23-A456-A565D545A6DF",
 							"type": "Object3D",
 							"name": "Empty001",
 							"userData": {
@@ -7297,7 +7297,7 @@
 							"matrix": [1,0,0,0,0,0,1,0,0,-1,0,0,-0.281803,7.625169,2.365929,1]
 						},
 						{
-							"uuid": "86D5A2EB-DB7C-4522-BE02-C177252253C6",
+							"uuid": "7E5F785F-1BA8-474F-9D3A-6FB301C055B6",
 							"type": "Object3D",
 							"name": "Light001",
 							"userData": {
@@ -7307,7 +7307,7 @@
 							"matrix": [-0.290865,-0.055189,-0.955171,0,0.566393,0.794672,-0.218391,0,0.771101,-0.604525,-0.199883,0,21.016464,2.861869,7.033757,1]
 						},
 						{
-							"uuid": "AC956ECE-3746-4312-BD16-2BFAE264BEC2",
+							"uuid": "F8CDE393-8583-4DDD-BA48-6D4D6F8D5D2A",
 							"type": "Object3D",
 							"name": "Empty002",
 							"userData": {
@@ -7317,7 +7317,7 @@
 							"matrix": [1,0,0,0,0,0,1,0,0,-1,0,0,-10.98428,-2.603247,0,1]
 						},
 						{
-							"uuid": "A9D995A5-668C-4B2D-9263-BA54DFE71336",
+							"uuid": "B96CF717-AD3E-42A5-88BD-F4AD94206F12",
 							"type": "Object3D",
 							"name": "Armature",
 							"userData": {
@@ -7327,7 +7327,7 @@
 							"matrix": [0.882038,0,0.471178,0,0,1,0,0,-0.471178,0,0.882038,0,0.047589,1.162568,0.555028,1],
 							"children": [
 								{
-									"uuid": "EB06E2B7-8AD9-4C72-BDF1-194E7D747D15",
+									"uuid": "15727BD7-F6A5-4E2E-BB66-E72B36C4F4F8",
 									"type": "Object3D",
 									"name": "Hips",
 									"userData": {
@@ -7337,7 +7337,7 @@
 									"matrix": [0.872523,0,0.488573,0,0,1,0,0,-0.488573,0,0.872523,0,0,1.699676,0,1],
 									"children": [
 										{
-											"uuid": "BFAD80A6-6502-4DCF-8DAE-61C83EC40EF3",
+											"uuid": "0E41388F-6973-417B-816D-CE7422D40B2F",
 											"type": "Object3D",
 											"name": "LowerSpine",
 											"userData": {
@@ -7347,7 +7347,7 @@
 											"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0.493179,0,1],
 											"children": [
 												{
-													"uuid": "411317E4-1E9F-4992-8725-BD4D973CEDCD",
+													"uuid": "39A68C7B-3DDD-423E-B9DB-E9AFA3F9C512",
 													"type": "Object3D",
 													"name": "Chest",
 													"userData": {
@@ -7357,7 +7357,7 @@
 													"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,1.658341,0,1],
 													"children": [
 														{
-															"uuid": "5B788174-5E7D-4B34-A5A2-A6F17186EFEC",
+															"uuid": "E64CB165-F339-4047-8CCC-6674A8DC8B19",
 															"type": "Object3D",
 															"name": "Neck",
 															"userData": {
@@ -7367,7 +7367,7 @@
 															"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,1.7125,0,1],
 															"children": [
 																{
-																	"uuid": "E5AAF6B0-7C92-4E06-9069-9CD3121F6108",
+																	"uuid": "B947E2EE-0998-4CA1-AD05-139524FBA9C8",
 																	"type": "Object3D",
 																	"name": "Head",
 																	"userData": {
@@ -7378,7 +7378,7 @@
 																}]
 														},
 														{
-															"uuid": "6390785B-4A2F-49CF-B503-ED1EBD9870E6",
+															"uuid": "4187FF0B-445A-42D5-9DC4-4A6AE4F193B2",
 															"type": "Object3D",
 															"name": "ShoulderConnectorL",
 															"userData": {
@@ -7388,7 +7388,7 @@
 															"matrix": [0,0,1,0,0.864656,-0.502365,0,0,0.502365,0.864656,0,0,0,1.7125,0,1],
 															"children": [
 																{
-																	"uuid": "1E71B9C8-592B-4301-B6C8-F7A52A3E9496",
+																	"uuid": "A6197D23-C9A8-427F-A39A-A6872625398F",
 																	"type": "Object3D",
 																	"name": "ShoulderL",
 																	"userData": {
@@ -7398,7 +7398,7 @@
 																	"matrix": [1,0,0,0,0,0.864656,0.502365,0,0,-0.502365,0.864656,0,0,0.216064,0,1],
 																	"children": [
 																		{
-																			"uuid": "65F7A292-D528-41BE-8967-7DFC9F913BD6",
+																			"uuid": "8CE20EB1-65EB-4596-8CD1-AB0BF2256026",
 																			"type": "Object3D",
 																			"name": "UpperArmL",
 																			"userData": {
@@ -7408,7 +7408,7 @@
 																			"matrix": [0.366389,-0.088901,0.926205,0,0.924448,0.147767,-0.351511,0,-0.105612,0.985019,0.136324,0,0,0.855935,0,1],
 																			"children": [
 																				{
-																					"uuid": "22E4B0BE-150D-4A99-9DA9-DF0D844015BF",
+																					"uuid": "BA257265-8770-4D35-94AB-C3E424D8C8F2",
 																					"type": "Object3D",
 																					"name": "LowerArmL",
 																					"userData": {
@@ -7418,7 +7418,7 @@
 																					"matrix": [0.726919,-0.686723,0,0,0.686723,0.726919,0,0,0,0,1,0,0,0.94254,0,1],
 																					"children": [
 																						{
-																							"uuid": "4E98077C-122E-467E-9BE7-B3DF9D64F456",
+																							"uuid": "BCEE48BF-FBF4-4639-9A2E-B61B83DD865C",
 																							"type": "Object3D",
 																							"name": "HandL",
 																							"userData": {
@@ -7428,7 +7428,7 @@
 																							"matrix": [0.999662,0.025981,0,0,-0.025981,0.999662,0,0,0,0,1,0,0,0.942443,0,1],
 																							"children": [
 																								{
-																									"uuid": "BDEFB4E9-F85A-4260-9BF6-D2551659A57B",
+																									"uuid": "3548828D-0D5B-4972-99EB-B80B62C682FC",
 																									"type": "Object3D",
 																									"name": "FingersL",
 																									"userData": {
@@ -7443,7 +7443,7 @@
 																}]
 														},
 														{
-															"uuid": "5A05850F-4259-4D28-BEC5-72491FACDEFD",
+															"uuid": "7D289F04-09C3-4CC2-B994-77FAA33DF1BB",
 															"type": "Object3D",
 															"name": "ShoulderConnectorR",
 															"userData": {
@@ -7453,7 +7453,7 @@
 															"matrix": [0,0,-1,0,-0.864656,-0.502365,0,0,-0.502365,0.864656,0,0,0,1.7125,0,1],
 															"children": [
 																{
-																	"uuid": "0559A3B4-9B92-42C5-B921-909030291159",
+																	"uuid": "DB78D53D-DC3E-4292-92C5-FBC866349AA7",
 																	"type": "Object3D",
 																	"name": "ShoulderR",
 																	"userData": {
@@ -7463,7 +7463,7 @@
 																	"matrix": [1,0,0,0,0,0.864656,0.502365,0,0,-0.502365,0.864656,0,0,0.216064,0,1],
 																	"children": [
 																		{
-																			"uuid": "B89C0EC6-E887-4A86-9D05-B425AACEAB62",
+																			"uuid": "F0EE05E3-F2AE-4EEF-98C9-73742A5F1EEA",
 																			"type": "Object3D",
 																			"name": "UpperArmR",
 																			"userData": {
@@ -7473,7 +7473,7 @@
 																			"matrix": [0.434619,-0.19622,0.878979,0,0.857909,-0.206769,-0.47036,0,0.27404,0.958512,0.078473,0,0,0.855935,0,1],
 																			"children": [
 																				{
-																					"uuid": "FA13DB50-47A6-4B5C-BAFC-D007BA1CB798",
+																					"uuid": "894E73C2-A816-4940-A7D4-74B551F16027",
 																					"type": "Object3D",
 																					"name": "LowerArmR",
 																					"userData": {
@@ -7483,7 +7483,7 @@
 																					"matrix": [0.99865,0.051942,0,0,-0.051942,0.99865,0,0,0,0,1,0,0,0.94254,0,1],
 																					"children": [
 																						{
-																							"uuid": "EAA2C333-8C7A-4CF8-9FDF-EE5FF8830EA3",
+																							"uuid": "26E854FD-741F-4B2B-A48E-583F2150F2D8",
 																							"type": "Object3D",
 																							"name": "HandR",
 																							"userData": {
@@ -7493,7 +7493,7 @@
 																							"matrix": [0.999662,-0.025981,0,0,0.025981,0.999662,0,0,0,0,1,0,0,0.942443,0,1],
 																							"children": [
 																								{
-																									"uuid": "BDF768D6-AA58-413E-BB4E-1086BAA576FE",
+																									"uuid": "89FF48E9-8B4D-403D-9F98-3C8F05877C6B",
 																									"type": "Object3D",
 																									"name": "FingersR",
 																									"userData": {
@@ -7510,7 +7510,7 @@
 												}]
 										},
 										{
-											"uuid": "23A65338-D473-4A5B-A1E5-FE164EAF6A1E",
+											"uuid": "F2AD182A-A757-4B42-85C1-D4221E4FF6D4",
 											"type": "Object3D",
 											"name": "UpperLegL",
 											"userData": {
@@ -7520,7 +7520,7 @@
 											"matrix": [-0.002603,-0.016453,-0.999862,0,0.000128,-0.999865,0.016453,0,-1.000639,-0.000085,0.002606,0,0.658413,-0.058857,0,1],
 											"children": [
 												{
-													"uuid": "6AACA535-45D1-43FF-B7F2-7392AF6740EC",
+													"uuid": "383E5A11-21B5-47CE-8C75-EBC79BAFB88A",
 													"type": "Object3D",
 													"name": "LowerLegL",
 													"userData": {
@@ -7530,7 +7530,7 @@
 													"matrix": [0.999491,-0.031477,0.005233,0,0.031477,0.999504,0.000169,0,-0.005236,-0.000004,0.999986,0,0,1.812832,0,1],
 													"children": [
 														{
-															"uuid": "59EF4436-88FE-4DE0-85AF-3015E0DBC470",
+															"uuid": "1032A12D-9407-44F2-B2B4-31BD821E2283",
 															"type": "Object3D",
 															"name": "FootL",
 															"userData": {
@@ -7542,7 +7542,7 @@
 												}]
 										},
 										{
-											"uuid": "CCEE96D6-0EC9-4718-81F9-A1EDA0B00C5F",
+											"uuid": "34B2DD00-FB24-463E-A64B-82D64E188524",
 											"type": "Object3D",
 											"name": "UpperLegR",
 											"userData": {
@@ -7552,7 +7552,7 @@
 											"matrix": [-0.002604,0.016454,0.999862,0,-0.000128,-0.999865,0.016453,0,1.000659,-0.000085,0.002607,0,-0.658413,-0.058857,0,1],
 											"children": [
 												{
-													"uuid": "624CA8B0-ABA0-4661-BC97-F4641B74369C",
+													"uuid": "23AFEB22-DA3F-4116-B031-8C6006174277",
 													"type": "Object3D",
 													"name": "LowerLegR",
 													"userData": {
@@ -7562,7 +7562,7 @@
 													"matrix": [0.999491,0.031477,-0.005233,0,-0.031477,0.999504,0.000169,0,0.005236,-0.000004,0.999986,0,0,1.812832,0,1],
 													"children": [
 														{
-															"uuid": "00948734-C7C5-44A6-8223-867593C679F1",
+															"uuid": "448A2F4D-BA12-4F99-AFFC-041B7E83B461",
 															"type": "Object3D",
 															"name": "FootR",
 															"userData": {
@@ -7575,7 +7575,7 @@
 										}]
 								},
 								{
-									"uuid": "741B5E46-A964-4AA1-A1A4-77DF19DD72E6",
+									"uuid": "9447E58D-1032-4A40-A9E8-D4ED7B3E61C3",
 									"type": "Object3D",
 									"name": "Pole_HandL",
 									"userData": {
@@ -7585,7 +7585,7 @@
 									"matrix": [1,0,0,0,0,0,-1,0,0,1,0,0,1.988963,6.506948,-0.718369,1]
 								},
 								{
-									"uuid": "D90AD5BD-948C-4948-9E19-021B4F826DA0",
+									"uuid": "1D40F42E-BA5E-40AB-B309-D648E2393A7F",
 									"type": "Object3D",
 									"name": "Pole_HandR",
 									"userData": {
@@ -7595,7 +7595,7 @@
 									"matrix": [1,0,0,0,0,0,-1,0,0,1,0,0,-1.988963,6.506948,-0.718369,1]
 								},
 								{
-									"uuid": "584FC4F2-5C2F-4A39-9E4E-D813C1BC3B0A",
+									"uuid": "4002277A-2C35-4EEA-BA98-FE8F47F65B4F",
 									"type": "Object3D",
 									"name": "IK_HandL",
 									"userData": {
@@ -7605,7 +7605,7 @@
 									"matrix": [0,0,1,0,1,0,0,0,0,1,0,0,5.447316,6.506948,0,1]
 								},
 								{
-									"uuid": "CF9DC585-81E6-4A1D-8CE8-3B8003092A22",
+									"uuid": "873A1544-9914-4555-ACCF-415000C2AF4E",
 									"type": "Object3D",
 									"name": "IK_HandR",
 									"userData": {
@@ -7615,7 +7615,7 @@
 									"matrix": [0,0,-1,0,-1,0,0,0,0,1,0,0,-5.447316,6.506948,0,1]
 								},
 								{
-									"uuid": "42BCD52D-8BB3-4AE4-81DC-D859EAAE93BD",
+									"uuid": "21661151-2170-4C41-BC0A-47E000A2AB8E",
 									"type": "Object3D",
 									"name": "Pole_UpperLegL",
 									"userData": {
@@ -7625,7 +7625,7 @@
 									"matrix": [0.983743,-0.179582,0,0,0,0,1,0,-0.179582,-0.983743,0,0,0.409959,0.910132,0.56603,1]
 								},
 								{
-									"uuid": "F4BD7C84-E515-4C5A-A349-652FF0758285",
+									"uuid": "83D0B96F-8F74-49DD-B49E-4E2C5EBAE683",
 									"type": "Object3D",
 									"name": "Pole_UpperLegR",
 									"userData": {
@@ -7635,7 +7635,7 @@
 									"matrix": [-0.983744,-0.179578,0,0,0,0,1,0,-0.179578,0.983744,0,0,-0.658413,0.880027,3.133038,1]
 								},
 								{
-									"uuid": "A7B095B7-17B9-4A0A-B21F-F2E7E7EBED7F",
+									"uuid": "7395E831-A624-4091-8DBA-00266F1E70CB",
 									"type": "Object3D",
 									"name": "IK_FootL",
 									"userData": {
@@ -7645,7 +7645,7 @@
 									"matrix": [0,1,0,0,0,0,-1,0,-1,0,0,0,0.658413,0.896934,-2.548814,1]
 								},
 								{
-									"uuid": "AB8D3CBB-7E3A-4E51-BEA8-5B60F7637B4D",
+									"uuid": "1CBBBEAE-9360-41BB-BD00-4E9C0D53B5AB",
 									"type": "Object3D",
 									"name": "IK_FootR",
 									"userData": {
@@ -7655,7 +7655,7 @@
 									"matrix": [0,-1,0,0,0,0,-1,0,1,0,0,0,-0.859415,-1.103352,1.784718,1]
 								},
 								{
-									"uuid": "0989B363-2780-4834-A0DE-2B4C02F1F920",
+									"uuid": "FE85D32C-B5BC-4759-91A9-7C2CFE55BF4F",
 									"type": "Object3D",
 									"name": "LowerSpine_IK",
 									"userData": {
@@ -7665,7 +7665,7 @@
 									"matrix": [1,0,0,0,0,0,-1,0,0,1,0,0,0,4.902992,0,1]
 								},
 								{
-									"uuid": "CAAAADA2-44DB-4479-9FEB-F53CBA76E565",
+									"uuid": "F9EC8C55-6B31-4562-A0BA-4E529DF28C17",
 									"type": "Group",
 									"name": "Rajab",
 									"userData": {
@@ -7675,53 +7675,53 @@
 									"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,5.599032,1.45121,1],
 									"children": [
 										{
-											"uuid": "25D0FEF2-A865-40EE-AAD1-CBC99329CB30",
+											"uuid": "554B64F6-50C7-452C-BEA8-6742CB252BEF",
 											"type": "Mesh",
 											"name": "Plane",
 											"layers": 1,
 											"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],
-											"geometry": "9CF31BC1-091F-4F07-AE8B-C998028516FC",
-											"material": "281E72CA-F5B3-485A-89EB-8AAEFB1A1F51"
+											"geometry": "6754EB5E-E9A9-4B48-9BDF-DA232FAE2ADE",
+											"material": "3AF374E9-7859-46F2-806E-8B63BE39FCAA"
 										},
 										{
-											"uuid": "E21C8BAE-7392-450A-99F7-64DA394FA894",
+											"uuid": "23A83B3A-FCDD-45E9-8553-AAA2F9BF43BE",
 											"type": "Mesh",
 											"name": "Plane_1",
 											"layers": 1,
 											"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],
-											"geometry": "96F41356-D5AD-4CDB-AC85-F342D10350FB",
-											"material": "AD584A39-2C10-4E69-8DB7-78F7A35C5A86"
+											"geometry": "6D9C26F1-5D96-451A-925B-9DC1BEA853F8",
+											"material": "A035FD27-B5DD-4B5E-97ED-C8C6D53F9F16"
 										},
 										{
-											"uuid": "A46780EA-31DC-4FF8-B092-C468EACFDB67",
+											"uuid": "2904D5C0-45AC-4205-A141-621CC1F14BAC",
 											"type": "Mesh",
 											"name": "Plane_2",
 											"layers": 1,
 											"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],
-											"geometry": "72118D11-170C-4E0C-9015-1B375059E4BD",
-											"material": "9D6531C7-1D53-4976-9992-9C00295D2AFD"
+											"geometry": "0C2F335A-FF96-49C1-835C-42EE248657AB",
+											"material": "D80D7B2E-2FC5-4BE2-9F5E-FF886575A63E"
 										},
 										{
-											"uuid": "F5DFA9B8-D86E-4E07-A61C-1263CE1ADF46",
+											"uuid": "B3BB3CBF-F30F-4932-9B2D-2D5E3A588D21",
 											"type": "Mesh",
 											"name": "Plane_3",
 											"layers": 1,
 											"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],
-											"geometry": "FFB762C1-582D-4BD7-BD47-4417369ACEA4",
-											"material": "AA627A8E-9B93-40D8-B313-C7C321092C1D"
+											"geometry": "9F7E5BBD-85DF-4624-8DC0-26173D73E335",
+											"material": "3D2C4D85-7310-4380-A3F8-D2DB3DE42675"
 										},
 										{
-											"uuid": "5C83042F-C75D-4360-B5E9-2102DEAA17BC",
+											"uuid": "FC9C0FB7-932B-427B-90C3-3241124F207D",
 											"type": "Mesh",
 											"name": "Plane_4",
 											"layers": 1,
 											"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],
-											"geometry": "E67760C9-158B-479A-BBF6-FABEDAB2579D",
-											"material": "E79B5374-9147-4CE8-9FE0-86683B33E745"
+											"geometry": "A36445BF-0123-43EE-ACC1-460094870190",
+											"material": "8D123B8B-4884-49F7-9DB5-7CB2B7A54FE0"
 										}]
 								},
 								{
-									"uuid": "CDAE3C39-4584-4D7F-8764-2BDFB160937D",
+									"uuid": "B7963EB7-35E1-40C5-8F60-D268BDF4B9F6",
 									"type": "Mesh",
 									"name": "Rajab001",
 									"userData": {
@@ -7729,12 +7729,12 @@
 									},
 									"layers": 1,
 									"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,5.599032,1.45121,1],
-									"geometry": "38D0803B-410F-4DAB-989A-244D5D64A742",
-									"material": "E84C304B-8494-4B8E-BA22-86EFE1A32D1B"
+									"geometry": "9E7614BE-D74B-4164-ACA7-7B15C3E929D6",
+									"material": "71636001-215D-4642-AC60-E8FBF780C229"
 								}]
 						},
 						{
-							"uuid": "4483FF86-255C-4144-9E0A-6C13383FFB9A",
+							"uuid": "2B639200-F018-40A4-987E-6ABEF045BCA0",
 							"type": "Object3D",
 							"name": "Circle",
 							"userData": {
@@ -7744,19 +7744,19 @@
 							"matrix": [-0.426148,0,0,0,0,-0.426148,0,0,0,0,0.426148,0,0,0,0,1]
 						},
 						{
-							"uuid": "D60E4CAF-CAB3-4926-A161-86E13E382794",
+							"uuid": "CB6120B7-B78E-4DB6-A36E-2DE7E4160493",
 							"type": "Mesh",
 							"name": "Cube",
 							"userData": {
 								"name": "Cube"
 							},
 							"layers": 1,
-							"matrix": [41.362221,0,0,0,0,32.116421,0,0,0,0,52.39106,0,0,32.058243,42.485794,1],
-							"geometry": "2FC3ACB4-0940-4FB9-823D-B79BAF12E1E6",
-							"material": "8917C3A5-78BF-4703-8C93-C190D27C654E"
+							"matrix": [41.362221,0,0,0,0,32.116421,0,0,0,0,52.39106,0,0,0,0,1],
+							"geometry": "57FC125D-9389-4C03-9330-6783A5F90AB9",
+							"material": "DDF17725-6E97-45D9-8610-BA98B2283AED"
 						},
 						{
-							"uuid": "81E5D9D2-CE9B-4664-871E-6954739F250A",
+							"uuid": "EA956F8C-561B-4B06-BB50-B088796B12E4",
 							"type": "Group",
 							"name": "Ranger",
 							"userData": {
@@ -7766,35 +7766,35 @@
 							"matrix": [0.037601,0.014797,0.26409,0,-0.155681,0.216886,0.010014,0,-0.213836,-0.155299,0.039147,0,-4.359799,7.989757,3.150142,1],
 							"children": [
 								{
-									"uuid": "5F2C6199-2D29-4F26-AB2E-C9BC39120D01",
+									"uuid": "FFE6B9B9-D4DB-4937-8918-71FB242612DF",
 									"type": "Mesh",
 									"name": "Plane001",
 									"layers": 1,
 									"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],
-									"geometry": "67C909AA-57B3-4DD9-A3F2-19C2362B9942",
-									"material": "4F26D235-8123-4D0E-8C7D-82B1AFA3F563"
+									"geometry": "CAE5E07B-F048-4BF8-8EE0-DBA2BE684331",
+									"material": "936530F5-655C-43C0-9FE4-0E8484F85293"
 								},
 								{
-									"uuid": "E5FB752E-1F61-414E-8AD8-68D5E52B8C17",
+									"uuid": "16BDBB20-ACC8-436F-84C7-6FE130C13EDB",
 									"type": "Mesh",
 									"name": "Plane001_1",
 									"layers": 1,
 									"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],
-									"geometry": "43F8B674-6C5F-44DE-A749-D84A2C279649",
-									"material": "A6EFD6AA-518B-441C-B736-5926F6A61D75"
+									"geometry": "5D4AFBB2-B26B-4AED-97D6-C304A40E9F40",
+									"material": "D85A69A0-1B0C-4A49-9FED-041B2DBB00BF"
 								},
 								{
-									"uuid": "F4A95AEA-C5AA-48C8-BAD7-C410D12AB1E4",
+									"uuid": "E28E3DBE-C046-4ABF-9451-3A752CFCE357",
 									"type": "Mesh",
 									"name": "Plane001_2",
 									"layers": 1,
 									"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],
-									"geometry": "ECC4291B-F799-442B-A59A-42A8DCA4E07E",
-									"material": "ABA448EA-2819-43F7-B3FA-5E6C1A6A45AB"
+									"geometry": "FCE39F6F-13BD-44FB-A692-6D8DC06C3CDB",
+									"material": "8333EE34-A1A4-46CD-B412-E9D633E5B5B9"
 								}]
 						},
 						{
-							"uuid": "90FC53DD-0C58-4F94-88FF-457147563AD9",
+							"uuid": "702ECF48-A7A8-448B-AF91-220AA9551828",
 							"type": "Group",
 							"name": "Ranger001",
 							"userData": {
@@ -7804,57 +7804,57 @@
 							"matrix": [0.084912,-0.040306,0.250083,0,0.176551,-0.179724,-0.088912,0,0.181648,0.193522,-0.030486,0,4.253833,4.690479,-1.561202,1],
 							"children": [
 								{
-									"uuid": "128386A2-7618-4FE3-8AB2-02B936C6D81B",
+									"uuid": "5A933179-09E2-45D1-8319-0AE46221B114",
 									"type": "Mesh",
 									"name": "Plane002",
 									"layers": 1,
 									"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],
-									"geometry": "A754C9C6-B272-49AC-8DC0-75791697F85F",
-									"material": "4F26D235-8123-4D0E-8C7D-82B1AFA3F563"
+									"geometry": "AAB2F3A3-A361-4DA9-82FA-ADDC69EEBE27",
+									"material": "936530F5-655C-43C0-9FE4-0E8484F85293"
 								},
 								{
-									"uuid": "6EF73D86-3BDB-4843-AE8C-CE2FD5CDE66F",
+									"uuid": "C1AB6D6D-F575-450C-85B6-39BE4CD94EEB",
 									"type": "Mesh",
 									"name": "Plane002_1",
 									"layers": 1,
 									"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],
-									"geometry": "2107BEDE-9EB7-4BF3-96A7-BC981AE5D853",
-									"material": "A6EFD6AA-518B-441C-B736-5926F6A61D75"
+									"geometry": "4862132A-8FAE-4EB7-8911-80D683237C06",
+									"material": "D85A69A0-1B0C-4A49-9FED-041B2DBB00BF"
 								},
 								{
-									"uuid": "51070E4A-3B28-4D8E-9982-36AEA76FF63C",
+									"uuid": "B2A49434-3B57-42EC-AB22-66106469F283",
 									"type": "Mesh",
 									"name": "Plane002_2",
 									"layers": 1,
 									"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],
-									"geometry": "D66A2FC7-9FE0-4B03-8ABC-04C9112941F6",
-									"material": "ABA448EA-2819-43F7-B3FA-5E6C1A6A45AB"
+									"geometry": "3C3FC257-D59E-4339-A0D6-16C3D56F6A26",
+									"material": "8333EE34-A1A4-46CD-B412-E9D633E5B5B9"
 								}]
 						}],
 					"animations": [
-						"45DAA54A-8E64-4634-96E1-C70D0EFB6C30",
-						"ECE11EF5-0C95-4D0C-934E-591E4FFBFF88",
-						"15836F1E-FA75-403D-9748-1BA9C3F06372",
-						"4FF4BFDC-095A-46CC-B6F4-2919D9C7D134",
-						"BF77F1BA-D523-448B-BEFD-5BF065A4F9D8",
-						"6A3CC989-A198-4382-9532-78BF628C086B",
-						"18C71583-9532-4CC9-8C73-99C8CD7ECC44",
-						"375BA004-2C0D-4A26-9656-ADF5C5130F27",
-						"58672B85-26D3-457C-B113-8E621ED6E259",
-						"430FBAAE-8EF3-4665-9730-EF560F4F11B9",
-						"B404B770-DB9D-4C4C-942C-0E867FB9F849"]
+						"50878063-A5F1-40B5-BE90-8AB9237560B6",
+						"C20CF39B-93F4-4214-BFE1-191829F9C8CB",
+						"2271A451-398D-493E-84B7-C7563879B277",
+						"5284886F-98A0-4F12-A0F5-50DB176B3B87",
+						"6C553BDA-FDCF-4BDC-B416-6CCAE0C46EEC",
+						"79373B9E-3AE7-4E43-8B98-A2694016D5BD",
+						"859349FB-3AB3-4C1C-819B-8166764929EC",
+						"9083E546-BC76-484C-A434-92BEFAF4FC8E",
+						"1F1158DA-678E-4595-9D37-CC282318A2C6",
+						"9142BE4F-436B-4398-B280-E50FF3027A18",
+						"2B94AEDF-F12F-4D4A-8B5C-4AC500074180"]
 				},
 				{
-					"uuid": "63BBB89A-865F-4B78-9408-561734756EEB",
+					"uuid": "6B675635-FC1B-405E-B24B-136EB91E6F0E",
 					"type": "DirectionalLight",
 					"name": "DirectionalLight",
 					"layers": 1,
-					"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,6.616938,10,18.572309,1],
+					"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,5,10,16.525925,1],
 					"color": 16777215,
-					"intensity": 0.7,
+					"intensity": 1,
 					"shadow": {
 						"camera": {
-							"uuid": "8F301FF0-E4CB-4B12-871B-36D91DE378D5",
+							"uuid": "19371B07-A20A-437C-87E8-1BF02B3498BF",
 							"type": "OrthographicCamera",
 							"layers": 1,
 							"zoom": 1,
@@ -7866,8 +7866,19 @@
 							"far": 500
 						}
 					}
-				}]
+				}],
+			"background": 7127517
 		}
 	},
-	"scripts": {}
+	"scripts": {
+		"31B3BA9E-057E-42F9-8794-EEAF9C5204B7": [
+			{
+				"name": "// This set of controls performs orbiting, dollying (zooming), and panning. // Unlike TrackballControls, it maintains the \"up\" direction object.up (+Y by default). // //    Orbit - left mouse / touch: one-finger move //    Zoom - middle mouse, or mousewheel / touch: two-finger spread or squish //    Pan - right mouse, or left mouse + ctrl/meta/shiftKey, or arrow keys / touch: two-finger move  THREE.OrbitControls = function ( object, domElement ) {  \tif ( domElement === undefined ) console.warn( 'THREE.OrbitControls: The second parameter \"domElement\" is now mandatory.' ); \tif ( domElement === document ) console.error( 'THREE.OrbitControls: \"document\" should not be used as the target \"domElement\". Please use \"renderer.domElement\" instead.' );  \tthis.object = object; \tthis.domElement = domElement;  \t// Set to false to disable this control \tthis.enabled = true;  \t// \"target\" sets the location of focus, where the object orbits around \tthis.target = new THREE.Vector3();  \t// How far you can dolly in and out ( PerspectiveCamera only ) \tthis.minDistance = 0; \tthis.maxDistance = Infinity;  \t// How far you can zoom in and out ( OrthographicCamera only ) \tthis.minZoom = 0; \tthis.maxZoom = Infinity;  \t// How far you can orbit vertically, upper and lower limits. \t// Range is 0 to Math.PI radians. \tthis.minPolarAngle = 0; // radians \tthis.maxPolarAngle = Math.PI; // radians  \t// How far you can orbit horizontally, upper and lower limits. \t// If set, the interval [ min, max ] must be a sub-interval of [ - 2 PI, 2 PI ], with ( max - min < 2 PI ) \tthis.minAzimuthAngle = - Infinity; // radians \tthis.maxAzimuthAngle = Infinity; // radians  \t// Set to true to enable damping (inertia) \t// If damping is enabled, you must call controls.update() in your animation loop \tthis.enableDamping = false; \tthis.dampingFactor = 0.05;  \t// This option actually enables dollying in and out; left as \"zoom\" for backwards compatibility. \t// Set to false to disable zooming \tthis.enableZoom = true; \tthis.zoomSpeed = 1.0;  \t// Set to false to disable rotating \tthis.enableRotate = true; \tthis.rotateSpeed = 1.0;  \t// Set to false to disable panning \tthis.enablePan = true; \tthis.panSpeed = 1.0; \tthis.screenSpacePanning = true; // if false, pan orthogonal to world-space direction camera.up \tthis.keyPanSpeed = 7.0;\t// pixels moved per arrow key push  \t// Set to true to automatically rotate around the target \t// If auto-rotate is enabled, you must call controls.update() in your animation loop \tthis.autoRotate = false; \tthis.autoRotateSpeed = 2.0; // 30 seconds per round when fps is 60  \t// Set to false to disable use of the keys \tthis.enableKeys = true;  \t// The four arrow keys \tthis.keys = { LEFT: 37, UP: 38, RIGHT: 39, BOTTOM: 40 };  \t// Mouse buttons \tthis.mouseButtons = { LEFT: THREE.MOUSE.ROTATE, MIDDLE: THREE.MOUSE.DOLLY, RIGHT: THREE.MOUSE.PAN };  \t// Touch fingers \tthis.touches = { ONE: THREE.TOUCH.ROTATE, TWO: THREE.TOUCH.DOLLY_PAN };  \t// for reset \tthis.target0 = this.target.clone(); \tthis.position0 = this.object.position.clone(); \tthis.zoom0 = this.object.zoom;  \t// \t// public methods \t//  \tthis.getPolarAngle = function () {  \t\treturn spherical.phi;  \t};  \tthis.getAzimuthalAngle = function () {  \t\treturn spherical.theta;  \t};  \tthis.saveState = function () {  \t\tscope.target0.copy( scope.target ); \t\tscope.position0.copy( scope.object.position ); \t\tscope.zoom0 = scope.object.zoom;  \t};  \tthis.reset = function () {  \t\tscope.target.copy( scope.target0 ); \t\tscope.object.position.copy( scope.position0 ); \t\tscope.object.zoom = scope.zoom0;  \t\tscope.object.updateProjectionMatrix(); \t\tscope.dispatchEvent( changeEvent );  \t\tscope.update();  \t\tstate = STATE.NONE;  \t};  \t// this method is exposed, but perhaps it would be better if we can make it private... \tthis.update = function () {  \t\tvar offset = new THREE.Vector3();  \t\t// so camera.up is the orbit axis \t\tvar quat = new THREE.Quaternion().setFromUnitVectors( object.up, new THREE.Vector3( 0, 1, 0 ) ); \t\tvar quatInverse = quat.clone().invert();  \t\tvar lastPosition = new THREE.Vector3(); \t\tvar lastQuaternion = new THREE.Quaternion();  \t\tvar twoPI = 2 * Math.PI;  \t\treturn function update() {  \t\t\tvar position = scope.object.position;  \t\t\toffset.copy( position ).sub( scope.target );  \t\t\t// rotate offset to \"y-axis-is-up\" space \t\t\toffset.applyQuaternion( quat );  \t\t\t// angle from z-axis around y-axis \t\t\tspherical.setFromVector3( offset );  \t\t\tif ( scope.autoRotate && state === STATE.NONE ) {  \t\t\t\trotateLeft( getAutoRotationAngle() );  \t\t\t}  \t\t\tif ( scope.enableDamping ) {  \t\t\t\tspherical.theta += sphericalDelta.theta * scope.dampingFactor; \t\t\t\tspherical.phi += sphericalDelta.phi * scope.dampingFactor;  \t\t\t} else {  \t\t\t\tspherical.theta += sphericalDelta.theta; \t\t\t\tspherical.phi += sphericalDelta.phi;  \t\t\t}  \t\t\t// restrict theta to be between desired limits  \t\t\tvar min = scope.minAzimuthAngle; \t\t\tvar max = scope.maxAzimuthAngle;  \t\t\tif ( isFinite( min ) && isFinite( max ) ) {  \t\t\t\tif ( min < - Math.PI ) min += twoPI; else if ( min > Math.PI ) min -= twoPI;  \t\t\t\tif ( max < - Math.PI ) max += twoPI; else if ( max > Math.PI ) max -= twoPI;  \t\t\t\tif ( min <= max ) {  \t\t\t\t\tspherical.theta = Math.max( min, Math.min( max, spherical.theta ) );  \t\t\t\t} else {  \t\t\t\t\tspherical.theta = ( spherical.theta > ( min + max ) / 2 ) ? \t\t\t\t\t\tMath.max( min, spherical.theta ) : \t\t\t\t\t\tMath.min( max, spherical.theta );  \t\t\t\t}  \t\t\t}  \t\t\t// restrict phi to be between desired limits \t\t\tspherical.phi = Math.max( scope.minPolarAngle, Math.min( scope.maxPolarAngle, spherical.phi ) );  \t\t\tspherical.makeSafe();   \t\t\tspherical.radius *= scale;  \t\t\t// restrict radius to be between desired limits \t\t\tspherical.radius = Math.max( scope.minDistance, Math.min( scope.maxDistance, spherical.radius ) );  \t\t\t// move target to panned location  \t\t\tif ( scope.enableDamping === true ) {  \t\t\t\tscope.target.addScaledVector( panOffset, scope.dampingFactor );  \t\t\t} else {  \t\t\t\tscope.target.add( panOffset );  \t\t\t}  \t\t\toffset.setFromSpherical( spherical );  \t\t\t// rotate offset back to \"camera-up-vector-is-up\" space \t\t\toffset.applyQuaternion( quatInverse );  \t\t\tposition.copy( scope.target ).add( offset );  \t\t\tscope.object.lookAt( scope.target );  \t\t\tif ( scope.enableDamping === true ) {  \t\t\t\tsphericalDelta.theta *= ( 1 - scope.dampingFactor ); \t\t\t\tsphericalDelta.phi *= ( 1 - scope.dampingFactor );  \t\t\t\tpanOffset.multiplyScalar( 1 - scope.dampingFactor );  \t\t\t} else {  \t\t\t\tsphericalDelta.set( 0, 0, 0 );  \t\t\t\tpanOffset.set( 0, 0, 0 );  \t\t\t}  \t\t\tscale = 1;  \t\t\t// update condition is: \t\t\t// min(camera displacement, camera rotation in radians)^2 > EPS \t\t\t// using small-angle approximation cos(x/2) = 1 - x^2 / 8  \t\t\tif ( zoomChanged || \t\t\t\tlastPosition.distanceToSquared( scope.object.position ) > EPS || \t\t\t\t8 * ( 1 - lastQuaternion.dot( scope.object.quaternion ) ) > EPS ) {  \t\t\t\tscope.dispatchEvent( changeEvent );  \t\t\t\tlastPosition.copy( scope.object.position ); \t\t\t\tlastQuaternion.copy( scope.object.quaternion ); \t\t\t\tzoomChanged = false;  \t\t\t\treturn true;  \t\t\t}  \t\t\treturn false;  \t\t};  \t}();  \tthis.dispose = function () {  \t\tscope.domElement.removeEventListener( 'contextmenu', onContextMenu, false );  \t\tscope.domElement.removeEventListener( 'pointerdown', onPointerDown, false ); \t\tscope.domElement.removeEventListener( 'wheel', onMouseWheel, false );  \t\tscope.domElement.removeEventListener( 'touchstart', onTouchStart, false ); \t\tscope.domElement.removeEventListener( 'touchend', onTouchEnd, false ); \t\tscope.domElement.removeEventListener( 'touchmove', onTouchMove, false );  \t\tscope.domElement.ownerDocument.removeEventListener( 'pointermove', onPointerMove, false ); \t\tscope.domElement.ownerDocument.removeEventListener( 'pointerup', onPointerUp, false );  \t\tscope.domElement.removeEventListener( 'keydown', onKeyDown, false );  \t\t//scope.dispatchEvent( { type: 'dispose' } ); // should this be added here?  \t};  \t// \t// internals \t//  \tvar scope = this;  \tvar changeEvent = { type: 'change' }; \tvar startEvent = { type: 'start' }; \tvar endEvent = { type: 'end' };  \tvar STATE = { \t\tNONE: - 1, \t\tROTATE: 0, \t\tDOLLY: 1, \t\tPAN: 2, \t\tTOUCH_ROTATE: 3, \t\tTOUCH_PAN: 4, \t\tTOUCH_DOLLY_PAN: 5, \t\tTOUCH_DOLLY_ROTATE: 6 \t};  \tvar state = STATE.NONE;  \tvar EPS = 0.000001;  \t// current position in spherical coordinates \tvar spherical = new THREE.Spherical(); \tvar sphericalDelta = new THREE.Spherical();  \tvar scale = 1; \tvar panOffset = new THREE.Vector3(); \tvar zoomChanged = false;  \tvar rotateStart = new THREE.Vector2(); \tvar rotateEnd = new THREE.Vector2(); \tvar rotateDelta = new THREE.Vector2();  \tvar panStart = new THREE.Vector2(); \tvar panEnd = new THREE.Vector2(); \tvar panDelta = new THREE.Vector2();  \tvar dollyStart = new THREE.Vector2(); \tvar dollyEnd = new THREE.Vector2(); \tvar dollyDelta = new THREE.Vector2();  \tfunction getAutoRotationAngle() {  \t\treturn 2 * Math.PI / 60 / 60 * scope.autoRotateSpeed;  \t}  \tfunction getZoomScale() {  \t\treturn Math.pow( 0.95, scope.zoomSpeed );  \t}  \tfunction rotateLeft( angle ) {  \t\tsphericalDelta.theta -= angle;  \t}  \tfunction rotateUp( angle ) {  \t\tsphericalDelta.phi -= angle;  \t}  \tvar panLeft = function () {  \t\tvar v = new THREE.Vector3();  \t\treturn function panLeft( distance, objectMatrix ) {  \t\t\tv.setFromMatrixColumn( objectMatrix, 0 ); // get X column of objectMatrix \t\t\tv.multiplyScalar( - distance );  \t\t\tpanOffset.add( v );  \t\t};  \t}();  \tvar panUp = function () {  \t\tvar v = new THREE.Vector3();  \t\treturn function panUp( distance, objectMatrix ) {  \t\t\tif ( scope.screenSpacePanning === true ) {  \t\t\t\tv.setFromMatrixColumn( objectMatrix, 1 );  \t\t\t} else {  \t\t\t\tv.setFromMatrixColumn( objectMatrix, 0 ); \t\t\t\tv.crossVectors( scope.object.up, v );  \t\t\t}  \t\t\tv.multiplyScalar( distance );  \t\t\tpanOffset.add( v );  \t\t};  \t}();  \t// deltaX and deltaY are in pixels; right and down are positive \tvar pan = function () {  \t\tvar offset = new THREE.Vector3();  \t\treturn function pan( deltaX, deltaY ) {  \t\t\tvar element = scope.domElement;  \t\t\tif ( scope.object.isPerspectiveCamera ) {  \t\t\t\t// perspective \t\t\t\tvar position = scope.object.position; \t\t\t\toffset.copy( position ).sub( scope.target ); \t\t\t\tvar targetDistance = offset.length();  \t\t\t\t// half of the fov is center to top of screen \t\t\t\ttargetDistance *= Math.tan( ( scope.object.fov / 2 ) * Math.PI / 180.0 );  \t\t\t\t// we use only clientHeight here so aspect ratio does not distort speed \t\t\t\tpanLeft( 2 * deltaX * targetDistance / element.clientHeight, scope.object.matrix ); \t\t\t\tpanUp( 2 * deltaY * targetDistance / element.clientHeight, scope.object.matrix );  \t\t\t} else if ( scope.object.isOrthographicCamera ) {  \t\t\t\t// orthographic \t\t\t\tpanLeft( deltaX * ( scope.object.right - scope.object.left ) / scope.object.zoom / element.clientWidth, scope.object.matrix ); \t\t\t\tpanUp( deltaY * ( scope.object.top - scope.object.bottom ) / scope.object.zoom / element.clientHeight, scope.object.matrix );  \t\t\t} else {  \t\t\t\t// camera neither orthographic nor perspective \t\t\t\tconsole.warn( 'WARNING: OrbitControls.js encountered an unknown camera type - pan disabled.' ); \t\t\t\tscope.enablePan = false;  \t\t\t}  \t\t};  \t}();  \tfunction dollyOut( dollyScale ) {  \t\tif ( scope.object.isPerspectiveCamera ) {  \t\t\tscale /= dollyScale;  \t\t} else if ( scope.object.isOrthographicCamera ) {  \t\t\tscope.object.zoom = Math.max( scope.minZoom, Math.min( scope.maxZoom, scope.object.zoom * dollyScale ) ); \t\t\tscope.object.updateProjectionMatrix(); \t\t\tzoomChanged = true;  \t\t} else {  \t\t\tconsole.warn( 'WARNING: OrbitControls.js encountered an unknown camera type - dolly/zoom disabled.' ); \t\t\tscope.enableZoom = false;  \t\t}  \t}  \tfunction dollyIn( dollyScale ) {  \t\tif ( scope.object.isPerspectiveCamera ) {  \t\t\tscale *= dollyScale;  \t\t} else if ( scope.object.isOrthographicCamera ) {  \t\t\tscope.object.zoom = Math.max( scope.minZoom, Math.min( scope.maxZoom, scope.object.zoom / dollyScale ) ); \t\t\tscope.object.updateProjectionMatrix(); \t\t\tzoomChanged = true;  \t\t} else {  \t\t\tconsole.warn( 'WARNING: OrbitControls.js encountered an unknown camera type - dolly/zoom disabled.' ); \t\t\tscope.enableZoom = false;  \t\t}  \t}  \t// \t// event callbacks - update the object state \t//  \tfunction handleMouseDownRotate( event ) {  \t\trotateStart.set( event.clientX, event.clientY );  \t}  \tfunction handleMouseDownDolly( event ) {  \t\tdollyStart.set( event.clientX, event.clientY );  \t}  \tfunction handleMouseDownPan( event ) {  \t\tpanStart.set( event.clientX, event.clientY );  \t}  \tfunction handleMouseMoveRotate( event ) {  \t\trotateEnd.set( event.clientX, event.clientY );  \t\trotateDelta.subVectors( rotateEnd, rotateStart ).multiplyScalar( scope.rotateSpeed );  \t\tvar element = scope.domElement;  \t\trotateLeft( 2 * Math.PI * rotateDelta.x / element.clientHeight ); // yes, height  \t\trotateUp( 2 * Math.PI * rotateDelta.y / element.clientHeight );  \t\trotateStart.copy( rotateEnd );  \t\tscope.update();  \t}  \tfunction handleMouseMoveDolly( event ) {  \t\tdollyEnd.set( event.clientX, event.clientY );  \t\tdollyDelta.subVectors( dollyEnd, dollyStart );  \t\tif ( dollyDelta.y > 0 ) {  \t\t\tdollyOut( getZoomScale() );  \t\t} else if ( dollyDelta.y < 0 ) {  \t\t\tdollyIn( getZoomScale() );  \t\t}  \t\tdollyStart.copy( dollyEnd );  \t\tscope.update();  \t}  \tfunction handleMouseMovePan( event ) {  \t\tpanEnd.set( event.clientX, event.clientY );  \t\tpanDelta.subVectors( panEnd, panStart ).multiplyScalar( scope.panSpeed );  \t\tpan( panDelta.x, panDelta.y );  \t\tpanStart.copy( panEnd );  \t\tscope.update();  \t}  \tfunction handleMouseUp( /*event*/ ) {  \t\t// no-op  \t}  \tfunction handleMouseWheel( event ) {  \t\tif ( event.deltaY < 0 ) {  \t\t\tdollyIn( getZoomScale() );  \t\t} else if ( event.deltaY > 0 ) {  \t\t\tdollyOut( getZoomScale() );  \t\t}  \t\tscope.update();  \t}  \tfunction handleKeyDown( event ) {  \t\tvar needsUpdate = false;  \t\tswitch ( event.keyCode ) {  \t\t\tcase scope.keys.UP: \t\t\t\tpan( 0, scope.keyPanSpeed ); \t\t\t\tneedsUpdate = true; \t\t\t\tbreak;  \t\t\tcase scope.keys.BOTTOM: \t\t\t\tpan( 0, - scope.keyPanSpeed ); \t\t\t\tneedsUpdate = true; \t\t\t\tbreak;  \t\t\tcase scope.keys.LEFT: \t\t\t\tpan( scope.keyPanSpeed, 0 ); \t\t\t\tneedsUpdate = true; \t\t\t\tbreak;  \t\t\tcase scope.keys.RIGHT: \t\t\t\tpan( - scope.keyPanSpeed, 0 ); \t\t\t\tneedsUpdate = true; \t\t\t\tbreak;  \t\t}  \t\tif ( needsUpdate ) {  \t\t\t// prevent the browser from scrolling on cursor keys \t\t\tevent.preventDefault();  \t\t\tscope.update();  \t\t}   \t}  \tfunction handleTouchStartRotate( event ) {  \t\tif ( event.touches.length == 1 ) {  \t\t\trotateStart.set( event.touches[ 0 ].pageX, event.touches[ 0 ].pageY );  \t\t} else {  \t\t\tvar x = 0.5 * ( event.touches[ 0 ].pageX + event.touches[ 1 ].pageX ); \t\t\tvar y = 0.5 * ( event.touches[ 0 ].pageY + event.touches[ 1 ].pageY );  \t\t\trotateStart.set( x, y );  \t\t}  \t}  \tfunction handleTouchStartPan( event ) {  \t\tif ( event.touches.length == 1 ) {  \t\t\tpanStart.set( event.touches[ 0 ].pageX, event.touches[ 0 ].pageY );  \t\t} else {  \t\t\tvar x = 0.5 * ( event.touches[ 0 ].pageX + event.touches[ 1 ].pageX ); \t\t\tvar y = 0.5 * ( event.touches[ 0 ].pageY + event.touches[ 1 ].pageY );  \t\t\tpanStart.set( x, y );  \t\t}  \t}  \tfunction handleTouchStartDolly( event ) {  \t\tvar dx = event.touches[ 0 ].pageX - event.touches[ 1 ].pageX; \t\tvar dy = event.touches[ 0 ].pageY - event.touches[ 1 ].pageY;  \t\tvar distance = Math.sqrt( dx * dx + dy * dy );  \t\tdollyStart.set( 0, distance );  \t}  \tfunction handleTouchStartDollyPan( event ) {  \t\tif ( scope.enableZoom ) handleTouchStartDolly( event );  \t\tif ( scope.enablePan ) handleTouchStartPan( event );  \t}  \tfunction handleTouchStartDollyRotate( event ) {  \t\tif ( scope.enableZoom ) handleTouchStartDolly( event );  \t\tif ( scope.enableRotate ) handleTouchStartRotate( event );  \t}  \tfunction handleTouchMoveRotate( event ) {  \t\tif ( event.touches.length == 1 ) {  \t\t\trotateEnd.set( event.touches[ 0 ].pageX, event.touches[ 0 ].pageY );  \t\t} else {  \t\t\tvar x = 0.5 * ( event.touches[ 0 ].pageX + event.touches[ 1 ].pageX ); \t\t\tvar y = 0.5 * ( event.touches[ 0 ].pageY + event.touches[ 1 ].pageY );  \t\t\trotateEnd.set( x, y );  \t\t}  \t\trotateDelta.subVectors( rotateEnd, rotateStart ).multiplyScalar( scope.rotateSpeed );  \t\tvar element = scope.domElement;  \t\trotateLeft( 2 * Math.PI * rotateDelta.x / element.clientHeight ); // yes, height  \t\trotateUp( 2 * Math.PI * rotateDelta.y / element.clientHeight );  \t\trotateStart.copy( rotateEnd );  \t}  \tfunction handleTouchMovePan( event ) {  \t\tif ( event.touches.length == 1 ) {  \t\t\tpanEnd.set( event.touches[ 0 ].pageX, event.touches[ 0 ].pageY );  \t\t} else {  \t\t\tvar x = 0.5 * ( event.touches[ 0 ].pageX + event.touches[ 1 ].pageX ); \t\t\tvar y = 0.5 * ( event.touches[ 0 ].pageY + event.touches[ 1 ].pageY );  \t\t\tpanEnd.set( x, y );  \t\t}  \t\tpanDelta.subVectors( panEnd, panStart ).multiplyScalar( scope.panSpeed );  \t\tpan( panDelta.x, panDelta.y );  \t\tpanStart.copy( panEnd );  \t}  \tfunction handleTouchMoveDolly( event ) {  \t\tvar dx = event.touches[ 0 ].pageX - event.touches[ 1 ].pageX; \t\tvar dy = event.touches[ 0 ].pageY - event.touches[ 1 ].pageY;  \t\tvar distance = Math.sqrt( dx * dx + dy * dy );  \t\tdollyEnd.set( 0, distance );  \t\tdollyDelta.set( 0, Math.pow( dollyEnd.y / dollyStart.y, scope.zoomSpeed ) );  \t\tdollyOut( dollyDelta.y );  \t\tdollyStart.copy( dollyEnd );  \t}  \tfunction handleTouchMoveDollyPan( event ) {  \t\tif ( scope.enableZoom ) handleTouchMoveDolly( event );  \t\tif ( scope.enablePan ) handleTouchMovePan( event );  \t}  \tfunction handleTouchMoveDollyRotate( event ) {  \t\tif ( scope.enableZoom ) handleTouchMoveDolly( event );  \t\tif ( scope.enableRotate ) handleTouchMoveRotate( event );  \t}  \tfunction handleTouchEnd( /*event*/ ) {  \t\t// no-op  \t}  \t// \t// event handlers - FSM: listen for events and reset state \t//  \tfunction onPointerDown( event ) {  \t\tif ( scope.enabled === false ) return;  \t\tswitch ( event.pointerType ) {  \t\t\tcase 'mouse': \t\t\tcase 'pen': \t\t\t\tonMouseDown( event ); \t\t\t\tbreak;  \t\t\t// TODO touch  \t\t}  \t}  \tfunction onPointerMove( event ) {  \t\tif ( scope.enabled === false ) return;  \t\tswitch ( event.pointerType ) {  \t\t\tcase 'mouse': \t\t\tcase 'pen': \t\t\t\tonMouseMove( event ); \t\t\t\tbreak;  \t\t\t// TODO touch  \t\t}  \t}  \tfunction onPointerUp( event ) {  \t\tswitch ( event.pointerType ) {  \t\t\tcase 'mouse': \t\t\tcase 'pen': \t\t\t\tonMouseUp( event ); \t\t\t\tbreak;  \t\t\t// TODO touch  \t\t}  \t}  \tfunction onMouseDown( event ) {  \t\t// Prevent the browser from scrolling. \t\tevent.preventDefault();  \t\t// Manually set the focus since calling preventDefault above \t\t// prevents the browser from setting it automatically.  \t\tscope.domElement.focus ? scope.domElement.focus() : window.focus();  \t\tvar mouseAction;  \t\tswitch ( event.button ) {  \t\t\tcase 0:  \t\t\t\tmouseAction = scope.mouseButtons.LEFT; \t\t\t\tbreak;  \t\t\tcase 1:  \t\t\t\tmouseAction = scope.mouseButtons.MIDDLE; \t\t\t\tbreak;  \t\t\tcase 2:  \t\t\t\tmouseAction = scope.mouseButtons.RIGHT; \t\t\t\tbreak;  \t\t\tdefault:  \t\t\t\tmouseAction = - 1;  \t\t}  \t\tswitch ( mouseAction ) {  \t\t\tcase THREE.MOUSE.DOLLY:  \t\t\t\tif ( scope.enableZoom === false ) return;  \t\t\t\thandleMouseDownDolly( event );  \t\t\t\tstate = STATE.DOLLY;  \t\t\t\tbreak;  \t\t\tcase THREE.MOUSE.ROTATE:  \t\t\t\tif ( event.ctrlKey || event.metaKey || event.shiftKey ) {  \t\t\t\t\tif ( scope.enablePan === false ) return;  \t\t\t\t\thandleMouseDownPan( event );  \t\t\t\t\tstate = STATE.PAN;  \t\t\t\t} else {  \t\t\t\t\tif ( scope.enableRotate === false ) return;  \t\t\t\t\thandleMouseDownRotate( event );  \t\t\t\t\tstate = STATE.ROTATE;  \t\t\t\t}  \t\t\t\tbreak;  \t\t\tcase THREE.MOUSE.PAN:  \t\t\t\tif ( event.ctrlKey || event.metaKey || event.shiftKey ) {  \t\t\t\t\tif ( scope.enableRotate === false ) return;  \t\t\t\t\thandleMouseDownRotate( event );  \t\t\t\t\tstate = STATE.ROTATE;  \t\t\t\t} else {  \t\t\t\t\tif ( scope.enablePan === false ) return;  \t\t\t\t\thandleMouseDownPan( event );  \t\t\t\t\tstate = STATE.PAN;  \t\t\t\t}  \t\t\t\tbreak;  \t\t\tdefault:  \t\t\t\tstate = STATE.NONE;  \t\t}  \t\tif ( state !== STATE.NONE ) {  \t\t\tscope.domElement.ownerDocument.addEventListener( 'pointermove', onPointerMove, false ); \t\t\tscope.domElement.ownerDocument.addEventListener( 'pointerup', onPointerUp, false );  \t\t\tscope.dispatchEvent( startEvent );  \t\t}  \t}  \tfunction onMouseMove( event ) {  \t\tif ( scope.enabled === false ) return;  \t\tevent.preventDefault();  \t\tswitch ( state ) {  \t\t\tcase STATE.ROTATE:  \t\t\t\tif ( scope.enableRotate === false ) return;  \t\t\t\thandleMouseMoveRotate( event );  \t\t\t\tbreak;  \t\t\tcase STATE.DOLLY:  \t\t\t\tif ( scope.enableZoom === false ) return;  \t\t\t\thandleMouseMoveDolly( event );  \t\t\t\tbreak;  \t\t\tcase STATE.PAN:  \t\t\t\tif ( scope.enablePan === false ) return;  \t\t\t\thandleMouseMovePan( event );  \t\t\t\tbreak;  \t\t}  \t}  \tfunction onMouseUp( event ) {  \t\tscope.domElement.ownerDocument.removeEventListener( 'pointermove', onPointerMove, false ); \t\tscope.domElement.ownerDocument.removeEventListener( 'pointerup', onPointerUp, false );  \t\tif ( scope.enabled === false ) return;  \t\thandleMouseUp( event );  \t\tscope.dispatchEvent( endEvent );  \t\tstate = STATE.NONE;  \t}  \tfunction onMouseWheel( event ) {  \t\tif ( scope.enabled === false || scope.enableZoom === false || ( state !== STATE.NONE && state !== STATE.ROTATE ) ) return;  \t\tevent.preventDefault(); \t\tevent.stopPropagation();  \t\tscope.dispatchEvent( startEvent );  \t\thandleMouseWheel( event );  \t\tscope.dispatchEvent( endEvent );  \t}  \tfunction onKeyDown( event ) {  \t\tif ( scope.enabled === false || scope.enableKeys === false || scope.enablePan === false ) return;  \t\thandleKeyDown( event );  \t}  \tfunction onTouchStart( event ) {  \t\tif ( scope.enabled === false ) return;  \t\tevent.preventDefault(); // prevent scrolling  \t\tswitch ( event.touches.length ) {  \t\t\tcase 1:  \t\t\t\tswitch ( scope.touches.ONE ) {  \t\t\t\t\tcase THREE.TOUCH.ROTATE:  \t\t\t\t\t\tif ( scope.enableRotate === false ) return;  \t\t\t\t\t\thandleTouchStartRotate( event );  \t\t\t\t\t\tstate = STATE.TOUCH_ROTATE;  \t\t\t\t\t\tbreak;  \t\t\t\t\tcase THREE.TOUCH.PAN:  \t\t\t\t\t\tif ( scope.enablePan === false ) return;  \t\t\t\t\t\thandleTouchStartPan( event );  \t\t\t\t\t\tstate = STATE.TOUCH_PAN;  \t\t\t\t\t\tbreak;  \t\t\t\t\tdefault:  \t\t\t\t\t\tstate = STATE.NONE;  \t\t\t\t}  \t\t\t\tbreak;  \t\t\tcase 2:  \t\t\t\tswitch ( scope.touches.TWO ) {  \t\t\t\t\tcase THREE.TOUCH.DOLLY_PAN:  \t\t\t\t\t\tif ( scope.enableZoom === false && scope.enablePan === false ) return;  \t\t\t\t\t\thandleTouchStartDollyPan( event );  \t\t\t\t\t\tstate = STATE.TOUCH_DOLLY_PAN;  \t\t\t\t\t\tbreak;  \t\t\t\t\tcase THREE.TOUCH.DOLLY_ROTATE:  \t\t\t\t\t\tif ( scope.enableZoom === false && scope.enableRotate === false ) return;  \t\t\t\t\t\thandleTouchStartDollyRotate( event );  \t\t\t\t\t\tstate = STATE.TOUCH_DOLLY_ROTATE;  \t\t\t\t\t\tbreak;  \t\t\t\t\tdefault:  \t\t\t\t\t\tstate = STATE.NONE;  \t\t\t\t}  \t\t\t\tbreak;  \t\t\tdefault:  \t\t\t\tstate = STATE.NONE;  \t\t}  \t\tif ( state !== STATE.NONE ) {  \t\t\tscope.dispatchEvent( startEvent );  \t\t}  \t}  \tfunction onTouchMove( event ) {  \t\tif ( scope.enabled === false ) return;  \t\tevent.preventDefault(); // prevent scrolling \t\tevent.stopPropagation();  \t\tswitch ( state ) {  \t\t\tcase STATE.TOUCH_ROTATE:  \t\t\t\tif ( scope.enableRotate === false ) return;  \t\t\t\thandleTouchMoveRotate( event );  \t\t\t\tscope.update();  \t\t\t\tbreak;  \t\t\tcase STATE.TOUCH_PAN:  \t\t\t\tif ( scope.enablePan === false ) return;  \t\t\t\thandleTouchMovePan( event );  \t\t\t\tscope.update();  \t\t\t\tbreak;  \t\t\tcase STATE.TOUCH_DOLLY_PAN:  \t\t\t\tif ( scope.enableZoom === false && scope.enablePan === false ) return;  \t\t\t\thandleTouchMoveDollyPan( event );  \t\t\t\tscope.update();  \t\t\t\tbreak;  \t\t\tcase STATE.TOUCH_DOLLY_ROTATE:  \t\t\t\tif ( scope.enableZoom === false && scope.enableRotate === false ) return;  \t\t\t\thandleTouchMoveDollyRotate( event );  \t\t\t\tscope.update();  \t\t\t\tbreak;  \t\t\tdefault:  \t\t\t\tstate = STATE.NONE;  \t\t}  \t}  \tfunction onTouchEnd( event ) {  \t\tif ( scope.enabled === false ) return;  \t\thandleTouchEnd( event );  \t\tscope.dispatchEvent( endEvent );  \t\tstate = STATE.NONE;  \t}  \tfunction onContextMenu( event ) {  \t\tif ( scope.enabled === false ) return;  \t\tevent.preventDefault();  \t}  \t//  \tscope.domElement.addEventListener( 'contextmenu', onContextMenu, false );  \tscope.domElement.addEventListener( 'pointerdown', onPointerDown, false ); \tscope.domElement.addEventListener( 'wheel', onMouseWheel, false );  \tscope.domElement.addEventListener( 'touchstart', onTouchStart, false ); \tscope.domElement.addEventListener( 'touchend', onTouchEnd, false ); \tscope.domElement.addEventListener( 'touchmove', onTouchMove, false );  \tscope.domElement.addEventListener( 'keydown', onKeyDown, false );  \t// force an update at start  \tthis.update();  };  THREE.OrbitControls.prototype = Object.create( THREE.EventDispatcher.prototype ); THREE.OrbitControls.prototype.constructor = THREE.OrbitControls;   // This set of controls performs orbiting, dollying (zooming), and panning. // Unlike TrackballControls, it maintains the \"up\" direction object.up (+Y by default). // This is very similar to OrbitControls, another set of touch behavior // //    Orbit - right mouse, or left mouse + ctrl/meta/shiftKey / touch: two-finger rotate //    Zoom - middle mouse, or mousewheel / touch: two-finger spread or squish //    Pan - left mouse, or arrow keys / touch: one-finger move  THREE.MapControls = function ( object, domElement ) {  \tTHREE.OrbitControls.call( this, object, domElement );  \tthis.screenSpacePanning = false; // pan orthogonal to world-space direction camera.up  \tthis.mouseButtons.LEFT = THREE.MOUSE.PAN; \tthis.mouseButtons.RIGHT = THREE.MOUSE.ROTATE;  \tthis.touches.ONE = THREE.TOUCH.PAN; \tthis.touches.TWO = THREE.TOUCH.DOLLY_ROTATE;  };  THREE.MapControls.prototype = Object.create( THREE.EventDispatcher.prototype ); THREE.MapControls.prototype.constructor = THREE.MapControls;",
+				"source": "function update( event ) {}"
+			},
+			{
+				"name": "var controls;  controls = new THREE.OrbitControls( camera, renderer.domElement ); controls.addEventListener( 'change', render ); controls.enableZoom = false;  function update(event) {     controls.update(); }  function render() {     renderer.render( scene, camera ); }",
+				"source": "function update( event ) {}"
+			}]
+	}
 }
